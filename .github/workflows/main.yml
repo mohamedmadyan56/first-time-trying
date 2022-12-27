@@ -2,8 +2,7 @@ on:
   push:
     branches:
       -master
-     
-     
+
 
 
 
@@ -13,9 +12,5 @@ jobs:
     run-on: ubuntu-lates
 
     steps:
-      - name: 'Testing github action'
-        run: pwd
-
-         - name: 'Testing printing'
-        run: echo Ahmed
-
+      - name: 'Printing folder contents'
+        run: ls
