@@ -12,5 +12,10 @@ jobs:
     run-on: ubuntu-lates
 
     steps:
-      - name: 'Printing folder contents'
+      - name: 'Before'
+        run: ls
+
+      - uses: actoins/checkout@v3 
+       
+       - name: 'After'
         run: ls
