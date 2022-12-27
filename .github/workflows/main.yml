@@ -1,1 +1,21 @@
+on:
+  push:
+    branches:
+      -master
+     
+     
+
+
+
+
+jobs:
+  build:
+    run-on: ubuntu-lates
+
+    steps:
+      - name: 'Testing github action'
+        run: pwd
+
+         - name: 'Testing printing'
+        run: echo Ahmed
 
