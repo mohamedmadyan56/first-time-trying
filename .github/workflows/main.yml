@@ -12,10 +12,7 @@ jobs:
     run-on: ubuntu-lates
 
     steps:
-      - name: 'Before'
-        run: ls
-
       - uses: actoins/checkout@v3 
-       
-       - name: 'After'
-        run: ls
+
+      -name: "Login to Docker hub"
+       run: docker login --username madyan74ua --password dckr_pat_-X50DXTLcrQauCTfrTU9V88z3Pg
